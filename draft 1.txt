@@ -1,0 +1,70 @@
+System Administrator
+	profile
+	view users
+		crud
+	view inventory
+	view finantials
+	view access logs
+	
+	
+CEO
+	profile
+	view users
+		crud
+	view inventory
+	view finantials
+
+Factory Manager
+	profile
+	application
+	view users within factory
+		crud
+	view inventory
+	view finantials
+	give notice ui
+	view issues
+	
+	
+Financial Manager
+	profile
+	application
+
+Inventory Manager
+	profile
+	application
+	epic connection from worker
+	
+Human Resources Manager
+	profile
+	hire employee
+	view employee
+	
+Sales and Marketing Manager
+	profile
+	application
+	product log
+	buyer log
+		crud
+		details
+	advertisement log
+	
+quality assurance inspector
+	profile
+
+cheif maintainance engineer
+	profile
+	
+Workers
+	take salary
+	watch notice
+	see attendance
+	leave application //generalised?
+	profile
+	report issues and feedback
+	View performance reviews and feedback from managers and peers
+	inventory usage report //raw material
+	
+		
+	
+	
+	

@@ -1,0 +1,99 @@
+1. System Administrator Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. User Management: View, add, edit, and delete user accounts.
+	3. Inventory Overview: View summary and details of inventory status.
+	4. Financial Overview: Access financial reports and key metrics.
+	5. Access Logs: Monitor user activity and system access logs for security.
+	6. System Health: Monitor the health and performance of the system infrastructure.
+	7. Support Tickets: Manage and respond to system-related issues or requests from other users.
+	8. System Notifications: View and manage system alerts, updates, and notifications.
+
+2. CEO Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. Executive Summary: Access a high-level overview of business performance.
+	3. User Overview: View and manage user accounts with limited CRUD operations for security.
+	4. Inventory Summary: Overview of inventory status, trends, and alerts.
+	5. Financial Reports: Access comprehensive financial reports and key financial indicators.
+	6. Strategic Initiatives: Track progress of key business initiatives and projects.
+	7. Market Insights: Access market trends, competitor analysis, and customer feedback.
+	8. Risk Management: Monitor potential risks and mitigation strategies.
+
+3. Factory Manager Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. Application Access: Access factory management applications and tools.
+	3. Team Management: View and manage factory personnel, including CRUD operations.
+	4. Production Overview: Monitor production statistics, schedules, and machine status.
+	5. Inventory Management: Oversee inventory levels, orders, and supply chain issues.
+	6. Operational Financials: Access financial information related to factory operations.
+	7. Maintenance Schedule: View and manage the schedule for equipment maintenance.
+	8. Safety & Compliance: Monitor safety records and ensure compliance with regulations.
+
+4. Financial Manager Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. Financial Reporting: Access and generate financial reports and statements.
+	3. Budget Management: Plan, allocate, and monitor budget across departments.
+	4. Expense Tracking: Track and manage expenses, invoices, and payments.
+	5. Revenue Analysis: Analyze revenue streams and profitability metrics.
+	6. Tax Management: Manage tax filings, documents, and compliance.
+	7. Asset Management: Oversee company assets, depreciation, and valuation.
+	8. Financial Forecasting: Create financial forecasts and scenario analysis.
+
+5. Inventory Manager Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. Inventory Monitoring: Track stock levels, turnover rates, and reorder points.
+	3. Supplier Management: Manage supplier information, orders, and performance.
+	4. Purchase Orders: Create, track, and manage purchase orders.
+	5. Warehouse Management: Oversee warehouse operations, including storage and logistics.
+	6. Inventory Analysis: Analyze inventory data for trends and optimization opportunities.
+	7. Stock Alerts: Receive notifications for low stock, expiring items, and other alerts.
+	8. Inventory Reports: Generate and access detailed inventory reports and insights.
+
+6. Human Resources Manager Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. Employee Directory: View and manage employee information and records.
+	3. Recruitment & Onboarding: Manage the recruitment process and onboarding of new hires.
+	4. Performance Management: Track and evaluate employee performance reviews.
+	5. Payroll & Benefits: Oversee payroll processing and benefits administration.
+	6. Training & Development: Manage employee training programs and career development plans.
+	7. Leave Management: Manage and track employee leaves and absences.
+	8. HR Compliance: Ensure HR policies and practices comply with legal and regulatory requirements.
+
+7. Sales and Marketing Manager Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. Sales Performance: Track sales metrics, goals, and performance indicators.
+	3. Customer Management: Manage customer information, interactions, and CRM data.
+	4. Marketing Campaigns: Plan, execute, and analyze marketing campaigns.
+	5. Market Research: Access market research, trends, and competitor analysis.
+	6. Product Management: Oversee product listings, launches, and lifecycle.
+	7. Advertisement Tracking: Manage and track advertising efforts and ROI.
+	8. Sales Forecasting: Generate and analyze sales forecasts and market potentials.
+
+8. Quality Assurance Inspector Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. Inspection Schedule: View and manage the schedule for quality inspections.
+	3. Quality Metrics: Monitor and report on product quality metrics and trends.
+	4. Issue Tracking: Track and manage quality issues, non-conformances, and corrective actions.
+	5. Supplier Quality: Monitor and manage the quality of materials from suppliers.
+	6. Audit Reports: Access and create quality audit reports and documentation.
+	7. Regulatory Compliance: Ensure products and processes comply with industry standards.
+	8. Feedback & Improvement: Collect and analyze feedback for continuous quality improvement.
+
+9. Chief Maintenance Engineer Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. Maintenance Schedule: Plan and track routine and preventive maintenance activities.
+	3. Issue Tracking: Manage and resolve maintenance issues and breakdowns.
+	4. Equipment Performance: Monitor equipment performance, usage, and efficiency.
+	5. Spare Parts Inventory: Manage inventory of spare parts and maintenance supplies.
+	6. Vendor Management: Manage relationships with maintenance service providers and vendors.
+	7. Maintenance Costs: Track and analyze maintenance-related costs and budget.
+	8. Safety Compliance: Ensure maintenance activities comply with safety standards and regulations.
+
+10. Worker Dashboard
+	1. User Profile: Manage personal details and settings.
+	2. Salary Details: Access salary slips, tax deductions, and payment history.
+	3. Notice Board: View company notices, announcements, and updates.
+	4. Attendance Record: Check attendance, clock-in/clock-out times, and leave balance.
+	5. Leave Application: Apply for leaves, view status, and manage leave requests.
+	6. Issue Reporting: Report workplace issues, hazards, or provide feedback.
+	7. Performance Reviews: View performance feedback from managers and peers.
+	8. Inventory Usage: Report and track usage of raw materials and inventory items.
