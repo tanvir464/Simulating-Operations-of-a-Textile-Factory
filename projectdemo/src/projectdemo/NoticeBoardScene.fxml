@@ -21,12 +21,9 @@
       <TableView layoutX="209.0" layoutY="82.0" prefHeight="276.0" prefWidth="501.0">
         <columns>
           <TableColumn prefWidth="125.0" text="Date" />
-          <TableColumn prefWidth="125.0" text="Amount" />
-            <TableColumn prefWidth="125.0" text="Tax %" />
-            <TableColumn prefWidth="125.0" text="Net Salary" />
+          <TableColumn prefWidth="375.0" text="Notice" />
         </columns>
       </TableView>
       <DatePicker layoutX="536.0" layoutY="48.0" />
-      <Button layoutX="593.0" layoutY="375.0" mnemonicParsing="false" text="Download PDF Slip" />
    </children>
 </AnchorPane>
