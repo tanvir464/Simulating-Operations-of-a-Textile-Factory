@@ -5,18 +5,28 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 
-<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectdemo.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectdemo.SalaryDetailsSceneController">
    <children>
-      <TableView layoutX="80.0" layoutY="90.0" prefHeight="240.0" prefWidth="600.0">
+      <Button layoutX="28.0" layoutY="56.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Profile" />
+      <Button layoutX="28.0" layoutY="101.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Salary Details" />
+      <Button layoutX="28.0" layoutY="146.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Notice Board" />
+      <Button layoutX="28.0" layoutY="191.0" mnemonicParsing="false" text="Attendance Record" />
+      <Button layoutX="28.0" layoutY="236.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Request Leave" />
+      <Button layoutX="28.0" layoutY="281.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Issue Report" />
+      <Button layoutX="28.0" layoutY="326.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Reviews" />
+      <Button layoutX="28.0" layoutY="371.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Inventory" />
+      <Line endX="-37.0" endY="334.0" layoutX="205.0" layoutY="116.0" startX="-37.0" startY="-118.5" />
+      <TableView layoutX="209.0" layoutY="82.0" prefHeight="276.0" prefWidth="501.0">
         <columns>
-          <TableColumn prefWidth="150.0" text="Date" />
-          <TableColumn prefWidth="150.0" text="Amount" />
-            <TableColumn minWidth="0.0" prefWidth="150.0" text="Tax Deductions" />
-            <TableColumn prefWidth="150.0" text="Net Salary" />
+          <TableColumn prefWidth="125.0" text="Date" />
+          <TableColumn prefWidth="125.0" text="Amount" />
+            <TableColumn prefWidth="125.0" text="Tax %" />
+            <TableColumn prefWidth="125.0" text="Net Salary" />
         </columns>
       </TableView>
-      <Button layoutX="563.0" layoutY="346.0" mnemonicParsing="false" text="Download PDF Slip" />
-      <DatePicker layoutX="506.0" layoutY="56.0" />
+      <DatePicker layoutX="536.0" layoutY="48.0" />
+      <Button layoutX="593.0" layoutY="375.0" mnemonicParsing="false" text="Download PDF Slip" />
    </children>
 </AnchorPane>
