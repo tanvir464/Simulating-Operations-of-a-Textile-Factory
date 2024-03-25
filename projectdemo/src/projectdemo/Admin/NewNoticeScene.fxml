@@ -5,7 +5,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectdemo.NewLeaveSceneController">
+<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TextField alignment="TOP_LEFT" layoutX="97.0" layoutY="145.0" prefHeight="184.0" prefWidth="556.0" promptText="Write Post Here" />
       <Button layoutX="530.0" layoutY="349.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="93.0" text="Back" />

@@ -4,13 +4,12 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectdemo.IssueSceneController">
+<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button layoutX="530.0" layoutY="349.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" text="Back" />
-      <Label layoutX="286.0" layoutY="69.0" text="Rating:" />
-      <Label layoutX="530.0" layoutY="69.0" text="Bonus:" />
+      <Label layoutX="102.0" layoutY="69.0" text="Date:" />
+      <Label layoutX="512.0" layoutY="69.0" text="Status:" />
       <Label layoutX="102.0" layoutY="147.0" prefHeight="184.0" prefWidth="556.0" text="Null" />
       <Label layoutX="102.0" layoutY="106.0" prefHeight="25.0" prefWidth="556.0" text="Null" />
-      <Label layoutX="102.0" layoutY="69.0" text="Date:" />
    </children>
 </AnchorPane>
