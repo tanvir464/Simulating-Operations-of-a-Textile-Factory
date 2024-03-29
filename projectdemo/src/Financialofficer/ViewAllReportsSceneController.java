@@ -9,7 +9,6 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.chart.BarChart;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -19,7 +18,7 @@ import javafx.scene.control.TableView;
  *
  * @author Mahdi Hasan
  */
-public class DisplayFinancialReportSceneController implements Initializable {
+public class ViewAllReportsSceneController implements Initializable {
 
     @FXML
     private Button logOutButton;
@@ -35,10 +34,6 @@ public class DisplayFinancialReportSceneController implements Initializable {
     private TableColumn<?, ?> financialReportAmountTC;
     @FXML
     private TableColumn<?, ?> financialReportDescriptionTC;
-    @FXML
-    private BarChart<?, ?> financialReportBarChart;
-    @FXML
-    private Button requestNewestReportsFromFactoryManagerButton;
     @FXML
     private Button uploadFinancialReportButton;
     @FXML
@@ -70,10 +65,6 @@ public class DisplayFinancialReportSceneController implements Initializable {
 
     @FXML
     private void goBackButtonOnClick(ActionEvent event) {
-    }
-
-    @FXML
-    private void requestNewestReportsFromFactoryManagerSceneOnClick(ActionEvent event) {
     }
 
     @FXML

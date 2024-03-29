@@ -19,9 +19,25 @@ import javafx.scene.control.Button;
 public class RequestReportFromFactoryManagerSceneController implements Initializable {
 
     @FXML
-    private Button goBackButton;
+    private Button logOutButton1;
     @FXML
-    private Button logOutButton;
+    private Button goBackButton1;
+    @FXML
+    private Button uploadFinancialReportButton;
+    @FXML
+    private Button viewFinancialReportsButton;
+    @FXML
+    private Button expenseControlButton;
+    @FXML
+    private Button searchReportsButton;
+    @FXML
+    private Button generateIncomeDataButton;
+    @FXML
+    private Button auditReportButton;
+    @FXML
+    private Button manageAssetsButton;
+    @FXML
+    private Button createFinancialForecastsButton;
 
     /**
      * Initializes the controller class.
@@ -37,6 +53,38 @@ public class RequestReportFromFactoryManagerSceneController implements Initializ
 
     @FXML
     private void logOutButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void uploadFinancialReportSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void viewFinancialReportsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void expenseControlSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void searchReportsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void generateIncomeDataSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void auditReportSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void manageAssetsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void createFinancialForecastsSceneOnClick(ActionEvent event) {
     }
     
 }

@@ -9,36 +9,19 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.chart.BarChart;
 import javafx.scene.control.Button;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
 
 /**
  * FXML Controller class
  *
  * @author Mahdi Hasan
  */
-public class DisplayFinancialReportSceneController implements Initializable {
+public class SearchedReportDeleteConfirmSceneController implements Initializable {
 
     @FXML
     private Button logOutButton;
     @FXML
-    private Button goBackButton;
-    @FXML
-    private TableView<?> financialReportTable;
-    @FXML
-    private TableColumn<?, ?> financialReportDateTC;
-    @FXML
-    private TableColumn<?, ?> financialReportTypeTC;
-    @FXML
-    private TableColumn<?, ?> financialReportAmountTC;
-    @FXML
-    private TableColumn<?, ?> financialReportDescriptionTC;
-    @FXML
-    private BarChart<?, ?> financialReportBarChart;
-    @FXML
-    private Button requestNewestReportsFromFactoryManagerButton;
+    private Button goBackButton1;
     @FXML
     private Button uploadFinancialReportButton;
     @FXML
@@ -70,10 +53,6 @@ public class DisplayFinancialReportSceneController implements Initializable {
 
     @FXML
     private void goBackButtonOnClick(ActionEvent event) {
-    }
-
-    @FXML
-    private void requestNewestReportsFromFactoryManagerSceneOnClick(ActionEvent event) {
     }
 
     @FXML

@@ -5,29 +5,38 @@
 <?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="485.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Financialofficer.ExpenseControlSystemSceneController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Financialofficer.ExpenseControlSystemSceneController">
    <children>
-      <Text layoutX="86.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense Control System">
+      <Text layoutX="296.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense Control System">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Text>
-      <Text layoutX="86.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Date :" />
-      <Text layoutX="86.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense Type :" />
-      <Text layoutX="86.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense Amount :" />
-      <DatePicker fx:id="expenseControlSystemDate" layoutX="202.0" layoutY="149.0" />
-      <ComboBox fx:id="expenseControlSystemTypeCB" layoutX="202.0" layoutY="188.0" onAction="#expenseControlSystemTypeCBonClick" prefWidth="150.0" />
-      <TextField fx:id="expenseControlSystemAmount" layoutX="203.0" layoutY="228.0" />
-      <Button fx:id="goBackButton" layoutX="47.0" layoutY="38.0" mnemonicParsing="false" onAction="#goBackButtonOnClick" text="Go Back" textFill="#1b51e4" />
-      <Button fx:id="logOutButton" layoutX="389.0" layoutY="38.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#eb2929" />
-      <Button fx:id="expenseControlSystemCheckOutButton" layoutX="163.0" layoutY="306.0" mnemonicParsing="false" onAction="#expenseControlSystemCheckOutButtonOnClick" prefHeight="25.0" prefWidth="187.0" text="Check Out" textFill="#1d9021">
+      <Text layoutX="296.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Date :" />
+      <Text layoutX="296.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense Type :" />
+      <Text layoutX="296.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense Amount :" />
+      <DatePicker fx:id="expenseControlSystemDate" layoutX="412.0" layoutY="160.0" />
+      <ComboBox fx:id="expenseControlSystemTypeCB" layoutX="412.0" layoutY="199.0" onAction="#expenseControlSystemTypeCBonClick" prefWidth="150.0" />
+      <TextField fx:id="expenseControlSystemAmount" layoutX="413.0" layoutY="239.0" />
+      <Button fx:id="expenseControlSystemCheckOutButton" layoutX="373.0" layoutY="317.0" mnemonicParsing="false" onAction="#expenseControlSystemCheckOutButtonOnClick" prefHeight="25.0" prefWidth="187.0" text="Check Out" textFill="#1d9021">
          <font>
             <Font size="22.0" />
          </font>
       </Button>
+      <Button fx:id="logOutButton1" layoutX="562.0" layoutY="27.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#e12828" />
+      <Button fx:id="goBackButton1" layoutX="32.0" layoutY="27.0" mnemonicParsing="false" onAction="#goBackButtonOnClick" text="Go Back" textFill="#1e21dd" />
+      <Line endX="40.0" endY="315.0" layoutX="153.0" layoutY="52.0" startX="40.0" startY="23.0" />
+      <Button fx:id="uploadFinancialReportButton" layoutX="36.0" layoutY="81.0" mnemonicParsing="false" onAction="#uploadFinancialReportSceneOnClick" text="Upload Report" textFill="#0a9326" />
+      <Button fx:id="viewFinancialReportsButton" layoutX="36.0" layoutY="119.0" mnemonicParsing="false" onAction="#viewFinancialReportsSceneOnClick" text="View Report" textFill="#0a9326" />
+      <Button fx:id="expenseControlButton" layoutX="36.0" layoutY="158.0" mnemonicParsing="false" onAction="#expenseControlSceneOnClick" text="Expense Control" textFill="#0a9326" />
+      <Button fx:id="searchReportsButton" layoutX="36.0" layoutY="193.0" mnemonicParsing="false" onAction="#searchReportsSceneOnClick" text="Search Report " textFill="#0a9326" />
+      <Button fx:id="generateIncomeDataButton" layoutX="36.0" layoutY="231.0" mnemonicParsing="false" onAction="#generateIncomeDataSceneOnClick" text="Generate Income Data" textFill="#0a9326" />
+      <Button fx:id="auditReportButton" layoutX="36.0" layoutY="268.0" mnemonicParsing="false" onAction="#auditReportSceneOnClick" text="Audit Report" textFill="#0a9326" />
+      <Button fx:id="manageAssetsButton" layoutX="36.0" layoutY="306.0" mnemonicParsing="false" onAction="#manageAssetsSceneOnClick" text="Manage Assets" textFill="#0a9326" />
+      <Button fx:id="createFinancialForecastsButton" layoutX="36.0" layoutY="342.0" mnemonicParsing="false" onAction="#createFinancialForecastsSceneOnClick" text="Financial Forecasts" textFill="#0a9326" />
    </children>
 </AnchorPane>

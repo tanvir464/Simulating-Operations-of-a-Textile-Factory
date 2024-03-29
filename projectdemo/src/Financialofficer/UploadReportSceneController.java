@@ -22,8 +22,6 @@ import javafx.scene.control.TextField;
 public class UploadReportSceneController implements Initializable {
 
     @FXML
-    private Button logoutButton;
-    @FXML
     private DatePicker upload;
     @FXML
     private ComboBox<?> uploadFinancialReportTypeCB;
@@ -32,9 +30,27 @@ public class UploadReportSceneController implements Initializable {
     @FXML
     private TextField uploadFinancialReportDescriptionTF;
     @FXML
-    private Button goBackButton;
-    @FXML
     private Button uploadFinancialReportSaveButton;
+    @FXML
+    private Button logOutButton;
+    @FXML
+    private Button goBackButton1;
+    @FXML
+    private Button uploadFinancialReportButton;
+    @FXML
+    private Button viewFinancialReportsButton;
+    @FXML
+    private Button expenseControlButton;
+    @FXML
+    private Button searchReportsButton;
+    @FXML
+    private Button generateIncomeDataButton;
+    @FXML
+    private Button auditReportButton;
+    @FXML
+    private Button manageAssetsButton;
+    @FXML
+    private Button createFinancialForecastsButton;
 
     /**
      * Initializes the controller class.
@@ -44,16 +60,49 @@ public class UploadReportSceneController implements Initializable {
         // TODO
     }    
 
-    @FXML
-    private void logoutButtonOnClick(ActionEvent event) {
-    }
-
-    @FXML
-    private void GoBackButtonOnClick(ActionEvent event) {
-    }
 
     @FXML
     private void uploadFinancialReportSaveButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void logOutButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void goBackButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void uploadFinancialReportSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void viewFinancialReportsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void expenseControlSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void searchReportsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void generateIncomeDataSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void auditReportSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void manageAssetsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void createFinancialForecastsSceneOnClick(ActionEvent event) {
     }
     
 }

@@ -9,36 +9,20 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.chart.BarChart;
 import javafx.scene.control.Button;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.Label;
 
 /**
  * FXML Controller class
  *
  * @author Mahdi Hasan
  */
-public class DisplayFinancialReportSceneController implements Initializable {
+public class ExpenseControlSystemBillCopySceneController implements Initializable {
 
     @FXML
     private Button logOutButton;
     @FXML
     private Button goBackButton;
-    @FXML
-    private TableView<?> financialReportTable;
-    @FXML
-    private TableColumn<?, ?> financialReportDateTC;
-    @FXML
-    private TableColumn<?, ?> financialReportTypeTC;
-    @FXML
-    private TableColumn<?, ?> financialReportAmountTC;
-    @FXML
-    private TableColumn<?, ?> financialReportDescriptionTC;
-    @FXML
-    private BarChart<?, ?> financialReportBarChart;
-    @FXML
-    private Button requestNewestReportsFromFactoryManagerButton;
     @FXML
     private Button uploadFinancialReportButton;
     @FXML
@@ -55,6 +39,14 @@ public class DisplayFinancialReportSceneController implements Initializable {
     private Button manageAssetsButton;
     @FXML
     private Button createFinancialForecastsButton;
+    @FXML
+    private Button expenseControlBillCopyProceedButton;
+    @FXML
+    private Label expenseControlSystemBillCopyAmountLabel;
+    @FXML
+    private Label expenseControlSystemBillCopyTypeLabel;
+    @FXML
+    private Label expenseControlSystemBillCopyDateLabel;
 
     /**
      * Initializes the controller class.
@@ -70,10 +62,6 @@ public class DisplayFinancialReportSceneController implements Initializable {
 
     @FXML
     private void goBackButtonOnClick(ActionEvent event) {
-    }
-
-    @FXML
-    private void requestNewestReportsFromFactoryManagerSceneOnClick(ActionEvent event) {
     }
 
     @FXML
@@ -106,6 +94,10 @@ public class DisplayFinancialReportSceneController implements Initializable {
 
     @FXML
     private void createFinancialForecastsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void expenseControlBillCopyProceedButtonOnClick(ActionEvent event) {
     }
     
 }

@@ -28,11 +28,27 @@ public class ExpenseControlSystemSceneController implements Initializable {
     @FXML
     private TextField expenseControlSystemAmount;
     @FXML
-    private Button goBackButton;
-    @FXML
-    private Button logOutButton;
-    @FXML
     private Button expenseControlSystemCheckOutButton;
+    @FXML
+    private Button logOutButton1;
+    @FXML
+    private Button goBackButton1;
+    @FXML
+    private Button uploadFinancialReportButton;
+    @FXML
+    private Button viewFinancialReportsButton;
+    @FXML
+    private Button expenseControlButton;
+    @FXML
+    private Button searchReportsButton;
+    @FXML
+    private Button generateIncomeDataButton;
+    @FXML
+    private Button auditReportButton;
+    @FXML
+    private Button manageAssetsButton;
+    @FXML
+    private Button createFinancialForecastsButton;
 
     /**
      * Initializes the controller class.
@@ -56,6 +72,38 @@ public class ExpenseControlSystemSceneController implements Initializable {
 
     @FXML
     private void expenseControlSystemCheckOutButtonOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void uploadFinancialReportSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void viewFinancialReportsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void expenseControlSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void searchReportsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void generateIncomeDataSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void auditReportSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void manageAssetsSceneOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void createFinancialForecastsSceneOnClick(ActionEvent event) {
     }
     
 }
