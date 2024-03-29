@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="618.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Financialofficer.DisplayFinancialReportSceneController">
+   <children>
+      <Button fx:id="logOutButton" layoutX="522.0" layoutY="34.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" />
+      <Button fx:id="goBackButton" layoutX="42.0" layoutY="34.0" mnemonicParsing="false" onAction="#goBackButtonOnClick" text="Go Back" />
+      <TableView fx:id="financialReportTable" layoutX="21.0" layoutY="126.0" prefHeight="200.0" prefWidth="278.0">
+        <columns>
+          <TableColumn fx:id="financialReportDateTC" prefWidth="65.0" text="Date" />
+          <TableColumn fx:id="financialReportTypeTC" prefWidth="64.0" text="Type" />
+            <TableColumn fx:id="financialReportAmountTC" prefWidth="65.0" text="Amount" />
+            <TableColumn fx:id="financialReportDescriptionTC" prefWidth="83.0" text="Description" />
+        </columns>
+      </TableView>
+      <BarChart fx:id="financialReportBarChart" layoutX="307.0" layoutY="72.0" prefHeight="257.0" prefWidth="299.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Text layoutX="51.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All Financial Reports">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button fx:id="requestNewestReportsFromFactoryManagerButton" layoutX="118.0" layoutY="346.0" mnemonicParsing="false" onAction="#requestNewestReportsFromFactoryManagerSceneOnClick" prefHeight="25.0" prefWidth="422.0" text="Request Newest Financial Reports from Factory Manager">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
