@@ -24,8 +24,6 @@ public class CreateIncomeStatementSceneController implements Initializable {
     @FXML
     private Button createIncomeStatementAddButton;
     @FXML
-    private Button logOutButton1;
-    @FXML
     private Button goBackButton1;
     @FXML
     private Button uploadFinancialReportButton;
@@ -49,6 +47,8 @@ public class CreateIncomeStatementSceneController implements Initializable {
     private TextField createIncomeStatementDetailTF;
     @FXML
     private TextField createIncomeStatementNetIncomeTF;
+    @FXML
+    private Button logOutButton;
 
     /**
      * Initializes the controller class.

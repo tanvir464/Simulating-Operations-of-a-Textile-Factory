@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
-package Financialofficer;
+package SalesExecutive;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -19,21 +19,21 @@ import javafx.scene.control.Button;
 public class DashboardSceneController implements Initializable {
 
     @FXML
-    private Button searchReportsButton;
+    private Button submitContentButton;
     @FXML
-    private Button createFinancialForecastsButton;
+    private Button viewContentFeedbackButton;
     @FXML
-    private Button uploadFinancialReportButton;
+    private Button salesCommunicationButton;
     @FXML
-    private Button viewFinancialReportsButton;
+    private Button viewGuidelinesButton;
     @FXML
-    private Button expenseControlButton;
+    private Button generateCouponsButton;
     @FXML
-    private Button manageAssetsButton;
+    private Button reviewProductsButton;
     @FXML
-    private Button generateIncomeDataButton;
+    private Button advertisementsButton;
     @FXML
-    private Button auditReportButton;
+    private Button createSalesForecastsButton;
     @FXML
     private Button dashboardEditProfileButton;
     @FXML
@@ -48,35 +48,35 @@ public class DashboardSceneController implements Initializable {
     }    
 
     @FXML
-    private void searchReportsSceneOnClick(ActionEvent event) {
+    private void submitContentButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void createFinancialForecastsSceneOnClick(ActionEvent event) {
+    private void viewContentFeedbackButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void uploadFinancialReportSceneOnClick(ActionEvent event) {
+    private void salesCommunicationButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void viewFinancialReportsSceneOnClick(ActionEvent event) {
+    private void viewGuidelinesButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void expenseControlSceneOnClick(ActionEvent event) {
+    private void generateCouponsButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void manageAssetsSceneOnClick(ActionEvent event) {
+    private void reviewProductsButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void generateIncomeDataSceneOnClick(ActionEvent event) {
+    private void advertisementsButtonOnClick(ActionEvent event) {
     }
 
     @FXML
-    private void auditReportSceneOnClick(ActionEvent event) {
+    private void createSalesForecastsButtonOnClick(ActionEvent event) {
     }
 
     @FXML

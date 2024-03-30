@@ -7,8 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="618.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Financialofficer.CreateIncomeStatementSceneController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Financialofficer.CreateIncomeStatementSceneController">
    <children>
       <Text layoutX="209.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Income Statement on the selected date :">
          <font>
@@ -24,7 +23,6 @@
             <Font size="22.0" />
          </font>
       </Button>
-      <Button fx:id="logOutButton1" layoutX="522.0" layoutY="29.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#e12828" />
       <Button fx:id="goBackButton1" layoutX="28.0" layoutY="29.0" mnemonicParsing="false" onAction="#goBackButtonOnClick" text="Go Back" textFill="#1e21dd" />
       <Line endX="40.0" endY="315.0" layoutX="149.0" layoutY="54.0" startX="40.0" startY="23.0" />
       <Button fx:id="uploadFinancialReportButton" layoutX="32.0" layoutY="83.0" mnemonicParsing="false" onAction="#uploadFinancialReportSceneOnClick" text="Upload Report" textFill="#0a9326" />
@@ -39,5 +37,6 @@
       <TextField fx:id="createIncomeStatementDetailTF" layoutX="351.0" layoutY="167.0" />
       <Text layoutX="234.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net Income :" />
       <TextField fx:id="createIncomeStatementNetIncomeTF" layoutX="351.0" layoutY="246.0" />
+      <Button fx:id="logOutButton" layoutX="516.0" layoutY="29.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#d30e0e" />
    </children>
 </AnchorPane>
