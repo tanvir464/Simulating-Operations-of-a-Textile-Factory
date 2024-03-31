@@ -23,9 +23,13 @@
             <Font name="System Bold" size="36.0" />
          </font>
       </Label>
-      <TextField layoutX="257.0" layoutY="142.0" prefHeight="25.0" prefWidth="428.0" />
-      <TextField layoutX="257.0" layoutY="181.0" prefHeight="195.0" prefWidth="428.0" />
-      <Button layoutX="258.0" layoutY="395.0" mnemonicParsing="false" text="Submit " />
+      <Button layoutX="258.0" layoutY="368.0" mnemonicParsing="false" text="Submit " />
       <Label layoutX="258.0" layoutY="117.0" prefHeight="17.0" prefWidth="270.0" text="date:" />
+      <Label layoutX="254.0" layoutY="146.0" prefHeight="17.0" prefWidth="105.0" text="Exports This Month:" />
+      <Label layoutX="254.0" layoutY="185.0" prefHeight="17.0" prefWidth="118.0" text="Imports This Month:" />
+      <TextField layoutX="380.0" layoutY="142.0" />
+      <TextField layoutX="380.0" layoutY="181.0" />
+      <Label layoutX="256.0" layoutY="219.0" prefHeight="17.0" prefWidth="118.0" text="Cancelled Orders:" />
+      <TextField layoutX="380.0" layoutY="215.0" />
    </children>
 </AnchorPane>
