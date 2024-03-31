@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="SalesExecutive.CompanyGuidelinesSceneController">
+   <children>
+      <Line endX="-106.0" endY="273.0" layoutX="278.0" layoutY="112.0" startX="-106.0" startY="-27.0" />
+      <Button fx:id="submitContentButton" layoutX="29.0" layoutY="85.0" mnemonicParsing="false" onAction="#submitContentButtonOnClick" text="Submit Content" textFill="#222ab9" />
+      <Button fx:id="viewContentFeedbackButton" layoutX="27.0" layoutY="120.0" mnemonicParsing="false" onAction="#viewContentFeedbackButtonOnClick" prefHeight="45.0" prefWidth="103.0" text="View Content Feedbacks" textFill="#222ab9" wrapText="true" />
+      <Button fx:id="salesCommunicationButton" layoutX="28.0" layoutY="172.0" mnemonicParsing="false" onAction="#salesCommunicationButtonOnClick" text="Sales Communication" textFill="#222ab9" />
+      <Button fx:id="viewGuidelinesButton" layoutX="28.0" layoutY="205.0" mnemonicParsing="false" onAction="#viewGuidelinesButtonOnClick" prefHeight="45.0" prefWidth="115.0" text="View Company Guidelines" textFill="#222ab9" wrapText="true" />
+      <Button fx:id="generateCouponsButton" layoutX="28.0" layoutY="256.0" mnemonicParsing="false" onAction="#generateCouponsButtonOnClick" text="Generate Coupons" textFill="#222ab9" />
+      <Button fx:id="reviewProductsButton" layoutX="27.0" layoutY="288.0" mnemonicParsing="false" onAction="#reviewProductsButtonOnClick" text="Review Products" textFill="#222ab9" />
+      <Button fx:id="advertisementsButton" layoutX="28.0" layoutY="323.0" mnemonicParsing="false" onAction="#advertisementsButtonOnClick" text="Advertisements" textFill="#222ab9" />
+      <Button fx:id="createSalesForecastsButton" layoutX="27.0" layoutY="355.0" mnemonicParsing="false" onAction="#createSalesForecastsButtonOnClick" text="Create Sales Forecasts" textFill="#222ab9" />
+      <Button fx:id="logOutButton" layoutX="514.0" layoutY="28.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#d30e0e" />
+      <Button fx:id="goBackButton" layoutX="34.0" layoutY="28.0" mnemonicParsing="false" onAction="#goBackButtonOnClick" text="Go Back" textFill="#ab0895" />
+      <Text layoutX="186.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company Guideline : ">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Label layoutX="200.0" layoutY="82.0" prefHeight="45.0" prefWidth="374.0" text="• Workers can avail all kinds of leave, such as medical leave, earned leave, casual leave and maternity leave with pay." wrapText="true" />
+      <Label layoutX="200.0" layoutY="121.0" prefHeight="25.0" prefWidth="374.0" text="• Dormitory facility to workers for free." wrapText="true" />
+      <Label layoutX="200.0" layoutY="138.0" prefHeight="25.0" prefWidth="374.0" text="• Transportation facility to workers for free." wrapText="true" />
+      <Label layoutX="200.0" layoutY="163.0" prefHeight="13.0" prefWidth="374.0" text="• Meal provided to all workers for free." wrapText="true" />
+      <Label layoutX="200.0" layoutY="180.0" prefHeight="13.0" prefWidth="374.0" text="• Free medical facilities for all employees." wrapText="true" />
+      <Label layoutX="200.0" layoutY="197.0" prefHeight="36.0" prefWidth="374.0" text="• Sales various consumer and toiletries goods at discount rate to workers at factory compound shop." wrapText="true" />
+      <Label layoutX="200.0" layoutY="233.0" prefHeight="13.0" prefWidth="374.0" text="• Pay profit share to workers." wrapText="true" />
+      <Label layoutX="200.0" layoutY="251.0" prefHeight="13.0" prefWidth="374.0" text="• Contributory provided fund to all permanent workers." wrapText="true" />
+      <Label layoutX="200.0" layoutY="270.0" prefHeight="13.0" prefWidth="374.0" text="• Provide earn leave encashment." wrapText="true" />
+      <Label layoutX="200.0" layoutY="283.0" prefHeight="27.0" prefWidth="374.0" text="• Ensure Life Insurance for all employees from the date of Joining." wrapText="true" />
+      <Label layoutX="200.0" layoutY="305.0" prefHeight="69.0" prefWidth="374.0" text="• In any accidental or death case, we ensure proper medical treatment for the patient and arrangement for the dead  body (Post mortem, sending the dead body to home and burial expenditure bear by company)." wrapText="true" />
+   </children>
+</AnchorPane>
