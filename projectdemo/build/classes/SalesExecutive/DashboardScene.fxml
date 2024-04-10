@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="521.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="SalesExecutive.DashboardSceneController">
+   <children>
+      <Text layoutX="70.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sales Executive">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Line endX="300.0" layoutX="171.0" layoutY="139.0" startX="-100.0" />
+      <Button fx:id="submitContentButton" layoutX="85.0" layoutY="175.0" mnemonicParsing="false" onAction="#submitContentButtonOnClick" text="Submit Content" textFill="#222ab9">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="viewContentFeedbackButton" layoutX="85.0" layoutY="224.0" mnemonicParsing="false" onAction="#viewContentFeedbackButtonOnClick" text="View Content Feedbacks" textFill="#222ab9">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="salesCommunicationButton" layoutX="85.0" layoutY="271.0" mnemonicParsing="false" onAction="#salesCommunicationButtonOnClick" text="Sales Communication" textFill="#222ab9">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="viewGuidelinesButton" layoutX="85.0" layoutY="320.0" mnemonicParsing="false" onAction="#viewGuidelinesButtonOnClick" text="View Company Guidelines" textFill="#222ab9">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="generateCouponsButton" layoutX="308.0" layoutY="175.0" mnemonicParsing="false" onAction="#generateCouponsButtonOnClick" text="Generate Coupons" textFill="#222ab9">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="reviewProductsButton" layoutX="308.0" layoutY="224.0" mnemonicParsing="false" onAction="#reviewProductsButtonOnClick" text="Review Products" textFill="#222ab9">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="advertisementsButton" layoutX="308.0" layoutY="271.0" mnemonicParsing="false" onAction="#advertisementsButtonOnClick" text="Advertisements" textFill="#222ab9">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="createSalesForecastsButton" layoutX="308.0" layoutY="320.0" mnemonicParsing="false" onAction="#createSalesForecastsButtonOnClick" text="Create Sales Forecasts" textFill="#222ab9">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="dashboardEditProfileButton" layoutX="374.0" layoutY="92.0" mnemonicParsing="false" onAction="#dashboardEditProfileButtonOnClick" text="Edit Profile" textFill="#b92295">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="logOutButton" layoutX="408.0" layoutY="38.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#d30e0e" />
+   </children>
+</AnchorPane>

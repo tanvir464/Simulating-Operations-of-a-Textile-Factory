@@ -17,27 +17,32 @@
       <Button layoutX="28.0" layoutY="326.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Reviews" />
       <Button layoutX="28.0" layoutY="371.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Inventory" />
       <Line endX="-37.0" endY="334.0" layoutX="205.0" layoutY="116.0" startX="-37.0" startY="-118.5" />
-      <Label layoutX="282.0" layoutY="109.0" text="Name:">
+      <Button layoutX="400.0" layoutY="143.0" mnemonicParsing="false" text="Clock In">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="420.0" layoutY="207.0" text="Start:">
+         <font>
+            <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="348.0" layoutY="109.0" prefHeight="17.0" prefWidth="311.0" text="Null" />
-      <Label layoutX="348.0" layoutY="149.0" prefHeight="17.0" prefWidth="311.0" text="Null" />
-      <Label layoutX="348.0" layoutY="189.0" prefHeight="17.0" prefWidth="311.0" text="Null" />
-      <Label alignment="TOP_LEFT" layoutX="348.0" layoutY="229.0" prefHeight="47.0" prefWidth="311.0" text="Null" />
-      <Button layoutX="311.0" layoutY="317.0" mnemonicParsing="false" text="Edit Profile" />
-      <Label layoutX="303.0" layoutY="149.0" text="ID:">
+      <Label layoutX="259.0" layoutY="297.0" text="Leave Time Left This Month:">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="230.0" layoutY="189.0" text="Phone Number:">
+      <Label layoutX="309.0" layoutY="342.0" text="Absence This Month:">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="270.0" layoutY="229.0" text="Address:">
+      <Label layoutX="426.0" layoutY="252.0" text="End:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="489.0" layoutY="73.0" text="Date:">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>

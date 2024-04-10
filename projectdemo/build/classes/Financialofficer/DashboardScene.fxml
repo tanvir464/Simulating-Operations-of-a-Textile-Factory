@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="375.0" prefWidth="508.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Financialofficer.DashboardSceneController">
+   <children>
+      <Button fx:id="logOutButton" layoutX="398.0" layoutY="28.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#d30e0e" />
+      <Button fx:id="searchReportsButton" layoutX="60.0" layoutY="303.0" mnemonicParsing="false" onAction="#searchReportsSceneOnClick" text="Search Reports" textFill="#3b52a4">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="createFinancialForecastsButton" layoutX="274.0" layoutY="303.0" mnemonicParsing="false" onAction="#createFinancialForecastsSceneOnClick" text="Create Financial Forecasts" textFill="#3b52a4">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="uploadFinancialReportButton" layoutX="60.0" layoutY="165.0" mnemonicParsing="false" onAction="#uploadFinancialReportSceneOnClick" text="Upload Financial Report" textFill="#265c9e">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="viewFinancialReportsButton" layoutX="60.0" layoutY="211.0" mnemonicParsing="false" onAction="#viewFinancialReportsSceneOnClick" text="View Financial Reports" textFill="#3b52a4">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="expenseControlButton" layoutX="60.0" layoutY="256.0" mnemonicParsing="false" onAction="#expenseControlSceneOnClick" text="Expense Control" textFill="#3b52a4">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="manageAssetsButton" layoutX="274.0" layoutY="256.0" mnemonicParsing="false" onAction="#manageAssetsSceneOnClick" text="Manage Assets" textFill="#3b52a4">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="generateIncomeDataButton" layoutX="274.0" layoutY="165.0" mnemonicParsing="false" onAction="#generateIncomeDataSceneOnClick" text="Generate Income Data" textFill="#3b52a4">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Button fx:id="auditReportButton" layoutX="274.0" layoutY="211.0" mnemonicParsing="false" onAction="#auditReportSceneOnClick" text="Audit Report" textFill="#3b52a4">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Text layoutX="60.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="60.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Financial Officer">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Line endX="300.0" layoutX="161.0" layoutY="129.0" startX="-100.0" />
+      <Button fx:id="dashboardEditProfileButton" layoutX="363.0" layoutY="82.0" mnemonicParsing="false" onAction="#dashboardEditProfileButtonOnClick" text="Edit Profile" textFill="#b92295">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="591.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Financialofficer.GenerateIncomeDataSceneController">
+   <children>
+      <Text layoutX="241.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Generate Income Data">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="241.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Date :" />
+      <Text layoutX="241.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Income Type :" />
+      <DatePicker fx:id="generateIcomeDataDate" layoutX="357.0" layoutY="159.0" />
+      <ComboBox fx:id="generateIcomeDataTypeCB" layoutX="357.0" layoutY="198.0" onAction="#generateIcomeDataTypeCBonClick" prefWidth="150.0" />
+      <Button fx:id="generateIcomeDataButton" layoutX="296.0" layoutY="259.0" mnemonicParsing="false" onAction="#generateIcomeDataButtonOnClick" prefHeight="25.0" prefWidth="187.0" text="Generate" textFill="#b81db0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="logOutButton1" layoutX="507.0" layoutY="26.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#e12828" />
+      <Button fx:id="goBackButton1" layoutX="21.0" layoutY="29.0" mnemonicParsing="false" onAction="#goBackButtonOnClick" text="Go Back" textFill="#1e21dd" />
+      <Line endX="40.0" endY="315.0" layoutX="142.0" layoutY="54.0" startX="40.0" startY="23.0" />
+      <Button fx:id="uploadFinancialReportButton" layoutX="25.0" layoutY="83.0" mnemonicParsing="false" onAction="#uploadFinancialReportSceneOnClick" text="Upload Report" textFill="#0a9326" />
+      <Button fx:id="viewFinancialReportsButton" layoutX="25.0" layoutY="121.0" mnemonicParsing="false" onAction="#viewFinancialReportsSceneOnClick" text="View Report" textFill="#0a9326" />
+      <Button fx:id="expenseControlButton" layoutX="25.0" layoutY="160.0" mnemonicParsing="false" onAction="#expenseControlSceneOnClick" text="Expense Control" textFill="#0a9326" />
+      <Button fx:id="searchReportsButton" layoutX="25.0" layoutY="195.0" mnemonicParsing="false" onAction="#searchReportsSceneOnClick" text="Search Report " textFill="#0a9326" />
+      <Button fx:id="generateIncomeDataButton" layoutX="25.0" layoutY="233.0" mnemonicParsing="false" onAction="#generateIncomeDataSceneOnClick" text="Generate Income Data" textFill="#0a9326" />
+      <Button fx:id="auditReportButton" layoutX="25.0" layoutY="270.0" mnemonicParsing="false" onAction="#auditReportSceneOnClick" text="Audit Report" textFill="#0a9326" />
+      <Button fx:id="manageAssetsButton" layoutX="25.0" layoutY="308.0" mnemonicParsing="false" onAction="#manageAssetsSceneOnClick" text="Manage Assets" textFill="#0a9326" />
+      <Button fx:id="createFinancialForecastsButton" layoutX="25.0" layoutY="344.0" mnemonicParsing="false" onAction="#createFinancialForecastsSceneOnClick" text="Financial Forecasts" textFill="#0a9326" />
+      <Button fx:id="transferSalaryButton" layoutX="289.0" layoutY="329.0" mnemonicParsing="false" onAction="#transferSalaryButtonOnClick" text="Transfer Salary To Everyone" textFill="#056183">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

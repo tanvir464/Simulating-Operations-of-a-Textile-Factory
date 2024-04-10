@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="505.0" prefWidth="683.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="Financialofficer.CreateAuditReportSceneController">
+   <children>
+      <Button fx:id="logOutButton" layoutX="595.0" layoutY="30.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#e12828" />
+      <Button fx:id="goBackButton" layoutX="27.0" layoutY="30.0" mnemonicParsing="false" onAction="#goBackButtonOnClick" text="Go Back" textFill="#1e21dd" />
+      <Button fx:id="uploadFinancialReportButton" layoutX="31.0" layoutY="84.0" mnemonicParsing="false" onAction="#uploadFinancialReportSceneOnClick" text="Upload Report" textFill="#0a9326" />
+      <Button fx:id="viewFinancialReportsButton" layoutX="31.0" layoutY="122.0" mnemonicParsing="false" onAction="#viewFinancialReportsSceneOnClick" text="View Report" textFill="#0a9326" />
+      <Button fx:id="expenseControlButton" layoutX="31.0" layoutY="161.0" mnemonicParsing="false" onAction="#expenseControlSceneOnClick" text="Expense Control" textFill="#0a9326" />
+      <Button fx:id="searchReportsButton" layoutX="31.0" layoutY="196.0" mnemonicParsing="false" onAction="#searchReportsSceneOnClick" text="Search Report " textFill="#0a9326" />
+      <Button fx:id="generateIncomeDataButton" layoutX="31.0" layoutY="234.0" mnemonicParsing="false" onAction="#generateIncomeDataSceneOnClick" text="Generate Income Data" textFill="#0a9326" />
+      <Button fx:id="auditReportButton" layoutX="31.0" layoutY="271.0" mnemonicParsing="false" onAction="#auditReportSceneOnClick" text="Audit Report" textFill="#0a9326" />
+      <Button fx:id="manageAssetsButton" layoutX="31.0" layoutY="309.0" mnemonicParsing="false" onAction="#manageAssetsSceneOnClick" text="Manage Assets" textFill="#0a9326" />
+      <Button fx:id="createFinancialForecastsButton" layoutX="31.0" layoutY="345.0" mnemonicParsing="false" onAction="#createFinancialForecastsSceneOnClick" text="Financial Forecasts" textFill="#0a9326" />
+      <Text fill="#b914a3" layoutX="195.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Audit Reports">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="195.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select a Date : ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Line endX="-27.0" endY="262.0" layoutX="200.0" layoutY="174.0" startX="-27.0" startY="-96.0" />
+      <DatePicker fx:id="createAuditReportSelectDate" layoutX="312.0" layoutY="84.0" />
+      <Button fx:id="viewAllAuditReportsButton" layoutX="522.0" layoutY="70.0" mnemonicParsing="false" onAction="#viewAllAuditReportsButtonOnClick" prefHeight="78.0" prefWidth="128.0" style="-fx-background-color: #9eeac3;" text="View All Audit Reports" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="saveAuditReportButton" layoutX="560.0" layoutY="412.0" mnemonicParsing="false" onAction="#saveAuditReportButtonOnClick" style="-fx-background-color: #b0c3ea;" text="Save">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="191.0" layoutY="139.0" text="1. Units produced :" />
+      <Label layoutX="196.0" layoutY="162.0" text="2. Downtime?" />
+      <Label layoutX="197.0" layoutY="188.0" text="3. Any deviations from the production plan?" />
+      <Label layoutX="197.0" layoutY="209.0" text="4. Finished or almost finished goods?" />
+      <Label layoutX="196.0" layoutY="239.0" text="5. Strength, color or shrinkage problem in any unit?" />
+      <Label layoutX="197.0" layoutY="264.0" text="6. Breakdown or repair in any machine?" />
+      <Label layoutX="197.0" layoutY="289.0" prefHeight="17.0" prefWidth="226.0" text="7. Safety protocols maintained properly?" />
+      <Label layoutX="196.0" layoutY="313.0" text="8. Any problem in Employee attendence and Productivity?" />
+      <Label layoutX="196.0" layoutY="339.0" prefHeight="17.0" prefWidth="287.0" text="9. Waste management system maintained properly?" />
+      <Label layoutX="192.0" layoutY="370.0" text="10. Customer complaints or feedbacks?" />
+      <TextField fx:id="createAuditReportQ1TF" layoutX="313.0" layoutY="136.0" />
+      <TextField fx:id="createAuditReportQ2TF" layoutX="313.0" layoutY="158.0" style="-fx-background-color: #dddcdc;" />
+      <TextField fx:id="createAuditReportQ3TF" layoutX="512.0" layoutY="184.0" />
+      <TextField fx:id="createAuditReportQ4TF" layoutX="512.0" layoutY="209.0" style="-fx-background-color: #dddcdc;" />
+      <TextField fx:id="createAuditReportQ5TF" layoutX="512.0" layoutY="234.0" />
+      <TextField fx:id="createAuditReportQ6TF" layoutX="512.0" layoutY="259.0" style="-fx-background-color: #dddcdc;" />
+      <TextField fx:id="createAuditReportQ7TF" layoutX="512.0" layoutY="285.0" />
+      <TextField fx:id="createAuditReportQ8TF" layoutX="512.0" layoutY="309.0" style="-fx-background-color: #dddcdc;" />
+      <TextField fx:id="createAuditReportQ9TF" layoutX="512.0" layoutY="335.0" />
+      <TextField fx:id="createAuditReportQ10TF" layoutX="213.0" layoutY="395.0" prefHeight="78.0" prefWidth="287.0" style="-fx-background-color: #dddcdc;" />
+   </children>
+</AnchorPane>

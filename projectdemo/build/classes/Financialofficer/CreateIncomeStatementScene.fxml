@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Financialofficer.CreateIncomeStatementSceneController">
+   <children>
+      <Text layoutX="209.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Income Statement on the selected date :">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="234.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Revenue :" />
+      <Text layoutX="234.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense Detail :" />
+      <Text layoutX="234.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expense Amount :" />
+      <TextField fx:id="createIncomeStatementAmountTF" layoutX="351.0" layoutY="209.0" />
+      <Button fx:id="createIncomeStatementAddButton" layoutX="302.0" layoutY="309.0" mnemonicParsing="false" onAction="#createIncomeStatementAddButtonOnClick" prefHeight="25.0" prefWidth="187.0" text="Add" textFill="#1d9021">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="goBackButton1" layoutX="28.0" layoutY="29.0" mnemonicParsing="false" onAction="#goBackButtonOnClick" text="Go Back" textFill="#1e21dd" />
+      <Line endX="40.0" endY="315.0" layoutX="149.0" layoutY="54.0" startX="40.0" startY="23.0" />
+      <Button fx:id="uploadFinancialReportButton" layoutX="32.0" layoutY="83.0" mnemonicParsing="false" onAction="#uploadFinancialReportSceneOnClick" text="Upload Report" textFill="#0a9326" />
+      <Button fx:id="viewFinancialReportsButton" layoutX="32.0" layoutY="121.0" mnemonicParsing="false" onAction="#viewFinancialReportsSceneOnClick" text="View Report" textFill="#0a9326" />
+      <Button fx:id="expenseControlButton" layoutX="32.0" layoutY="160.0" mnemonicParsing="false" onAction="#expenseControlSceneOnClick" text="Expense Control" textFill="#0a9326" />
+      <Button fx:id="searchReportsButton" layoutX="32.0" layoutY="195.0" mnemonicParsing="false" onAction="#searchReportsSceneOnClick" text="Search Report " textFill="#0a9326" />
+      <Button fx:id="generateIncomeDataButton" layoutX="32.0" layoutY="233.0" mnemonicParsing="false" onAction="#generateIncomeDataSceneOnClick" text="Generate Income Data" textFill="#0a9326" />
+      <Button fx:id="auditReportButton" layoutX="32.0" layoutY="270.0" mnemonicParsing="false" onAction="#auditReportSceneOnClick" text="Audit Report" textFill="#0a9326" />
+      <Button fx:id="manageAssetsButton" layoutX="32.0" layoutY="308.0" mnemonicParsing="false" onAction="#manageAssetsSceneOnClick" text="Manage Assets" textFill="#0a9326" />
+      <Button fx:id="createFinancialForecastsButton" layoutX="32.0" layoutY="344.0" mnemonicParsing="false" onAction="#createFinancialForecastsSceneOnClick" text="Financial Forecasts" textFill="#0a9326" />
+      <TextField fx:id="createIncomeStatementRevenueTF" layoutX="351.0" layoutY="130.0" />
+      <TextField fx:id="createIncomeStatementDetailTF" layoutX="351.0" layoutY="167.0" />
+      <Text layoutX="234.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Net Income :" />
+      <TextField fx:id="createIncomeStatementNetIncomeTF" layoutX="351.0" layoutY="246.0" />
+      <Button fx:id="logOutButton" layoutX="516.0" layoutY="29.0" mnemonicParsing="false" onAction="#logOutButtonOnClick" text="Log Out" textFill="#d30e0e" />
+   </children>
+</AnchorPane>
