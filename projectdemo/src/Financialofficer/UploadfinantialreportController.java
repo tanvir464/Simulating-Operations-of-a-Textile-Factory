@@ -6,12 +6,15 @@ package Financialofficer;
 
 import java.io.IOException;
 import java.net.URL;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
@@ -45,6 +48,19 @@ public class UploadfinantialreportController implements Initializable {
 
     @FXML
     private void uploadFinancialReportSaveButtonOnClick(ActionEvent event) throws IOException {
+        String costType = uploadFinancialReportTypeCB.getValue();
+        String costAmount = uploadFinancialReportAmountTF.getText();
+        String costDescription = uploadFinancialReportDescriptionTF.getText();
+        LocalDate costDate = uploadDate.getValue();
+        
+        DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        String dateString = costDate.format(dateFormatter);
+        
+        
+        String fileName = "FinancialReportSave_.bin";
+         UploadFinancialReportSaveClass items = new UploadFinancialReportSaveClass(costType, costAmount,
+                 costDescription, dateString);
+        
     }
 
     @FXML

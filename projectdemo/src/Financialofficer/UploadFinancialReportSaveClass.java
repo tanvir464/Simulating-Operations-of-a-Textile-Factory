@@ -50,7 +50,7 @@ public class UploadFinancialReportSaveClass implements Serializable{
         this.uploadFinancialReportTypeCB = uploadFinancialReportTypeCB;
     }
 
-    public UploadFinancialReportSaveClass(LocalDate uploadDate, String uploadFinancialReportAmountTF, String uploadFinancialReportDescriptionTF, String uploadFinancialReportTypeCB) {
+    public UploadFinancialReportSaveClass(String uploadFinancialReportAmountTF, String uploadFinancialReportDescriptionTF, String uploadFinancialReportTypeCB, String dateString) {
         this.uploadDate = uploadDate;
         this.uploadFinancialReportAmountTF = uploadFinancialReportAmountTF;
         this.uploadFinancialReportDescriptionTF = uploadFinancialReportDescriptionTF;
