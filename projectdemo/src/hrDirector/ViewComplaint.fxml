@@ -6,22 +6,22 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hrDirector.ViewComplaintController">
    <children>
-      <Button layoutX="28.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Profile" />
-      <Button layoutX="28.0" layoutY="117.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Employee Info" />
-      <Button layoutX="28.0" layoutY="347.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="View Resignation" />
+      <Button layoutX="28.0" layoutY="58.0" mnemonicParsing="false" onAction="#userProfileOnClick" prefHeight="25.0" prefWidth="118.0" text="Profile" />
+      <Button layoutX="28.0" layoutY="117.0" mnemonicParsing="false" onAction="#employeeInfoOnClick" prefHeight="25.0" prefWidth="118.0" text="Employee Info" />
+      <Button layoutX="28.0" layoutY="347.0" mnemonicParsing="false" onAction="#resignationOnClick" prefHeight="25.0" prefWidth="118.0" text="View Resignation" />
       <Line endX="-37.0" endY="334.0" layoutX="205.0" layoutY="116.0" startX="-37.0" startY="-118.5" />
-      <Button layoutX="28.0" layoutY="168.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="New Recruitment" />
-      <Button layoutX="28.0" layoutY="227.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="View Complaint" />
-      <Button layoutX="28.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Branch Report" />
+      <Button layoutX="28.0" layoutY="168.0" mnemonicParsing="false" onAction="#recruitmentOnClick" prefHeight="25.0" prefWidth="118.0" text="New Recruitment" />
+      <Button layoutX="28.0" layoutY="227.0" mnemonicParsing="false" onAction="#viewComlaintOnClick" prefHeight="25.0" prefWidth="118.0" text="View Complaint" />
+      <Button layoutX="28.0" layoutY="291.0" mnemonicParsing="false" onAction="#branchReportOnClick" prefHeight="25.0" prefWidth="118.0" text="Branch Report" />
       <Label layoutX="317.0" layoutY="43.0" prefHeight="56.0" prefWidth="209.0" text="Complaints">
          <font>
             <Font name="System Bold" size="39.0" />
          </font>
       </Label>
-      <Label layoutX="211.0" layoutY="134.0" prefHeight="25.0" prefWidth="454.0" text="Label" />
-      <Label layoutX="211.0" layoutY="181.0" prefHeight="205.0" prefWidth="454.0" text="Label" />
-      <Button layoutX="396.0" layoutY="401.0" mnemonicParsing="false" text="Accept" />
+      <Label fx:id="idSearch" layoutX="211.0" layoutY="134.0" prefHeight="25.0" prefWidth="454.0" text="Label" />
+      <Label fx:id="complaintSearch" layoutX="211.0" layoutY="181.0" prefHeight="205.0" prefWidth="454.0" text="Label" />
+      <Button layoutX="396.0" layoutY="401.0" mnemonicParsing="false" onAction="#acceptOnClick" text="Accept" />
    </children>
 </AnchorPane>

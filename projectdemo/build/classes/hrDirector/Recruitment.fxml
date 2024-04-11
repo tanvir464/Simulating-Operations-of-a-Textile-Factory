@@ -8,15 +8,15 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hrDirector.RecruitmentController">
+<AnchorPane id="AnchorPane" prefHeight="420.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="28.0" layoutY="58.0" mnemonicParsing="false" onAction="#userProfileOnClick" prefHeight="25.0" prefWidth="118.0" text="Profile" />
-      <Button layoutX="28.0" layoutY="117.0" mnemonicParsing="false" onAction="#infoOfEmployeeOnClick" prefHeight="25.0" prefWidth="118.0" text="Employee Info" />
-      <Button layoutX="28.0" layoutY="347.0" mnemonicParsing="false" onAction="#viewResignationOnClick" prefHeight="25.0" prefWidth="118.0" text="View Resignation" />
+      <Button layoutX="28.0" layoutY="58.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Profile" />
+      <Button layoutX="28.0" layoutY="117.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Employee Info" />
+      <Button layoutX="28.0" layoutY="347.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="View Resignation" />
       <Line endX="-37.0" endY="334.0" layoutX="205.0" layoutY="116.0" startX="-37.0" startY="-118.5" />
       <Button layoutX="28.0" layoutY="168.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="New Recruitment" />
-      <Button layoutX="28.0" layoutY="227.0" mnemonicParsing="false" onAction="#viewComplaintOnClick" prefHeight="25.0" prefWidth="118.0" text="View Complaint" />
-      <Button layoutX="28.0" layoutY="291.0" mnemonicParsing="false" onAction="#viewBranchReportOnClick" prefHeight="25.0" prefWidth="118.0" text="Branch Report" />
+      <Button layoutX="28.0" layoutY="227.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="View Complaint" />
+      <Button layoutX="28.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="118.0" text="Branch Report" />
       <Label layoutX="218.0" layoutY="156.0" prefHeight="25.0" prefWidth="132.0" text="Role:">
          <font>
             <Font size="13.0" />
@@ -43,15 +43,15 @@
          </font>
       </Label>
       <Label layoutX="350.0" layoutY="270.0" prefHeight="17.0" prefWidth="99.0" text="Label" />
-      <TextField fx:id="nameOfEmployee" layoutX="350.0" layoutY="193.0" />
-      <ComboBox fx:id="departmentCB" layoutX="350.0" layoutY="227.0" prefWidth="150.0" />
+      <TextField layoutX="350.0" layoutY="193.0" />
+      <ComboBox layoutX="350.0" layoutY="227.0" prefWidth="150.0" />
       <Label layoutX="220.0" layoutY="304.0" prefHeight="25.0" prefWidth="132.0" text="Job description:">
          <font>
             <Font size="13.0" />
          </font>
       </Label>
-      <TextField fx:id="jobDescription" layoutX="350.0" layoutY="304.0" prefHeight="63.0" prefWidth="299.0" />
-      <Button layoutX="321.0" layoutY="392.0" mnemonicParsing="false" onAction="#addEmployeeOnClick" text="Add new Employee" />
-      <TextField fx:id="roleOfEmployee" layoutX="350.0" layoutY="156.0" />
+      <TextField layoutX="350.0" layoutY="304.0" prefHeight="63.0" prefWidth="299.0" />
+      <Button layoutX="321.0" layoutY="392.0" mnemonicParsing="false" text="Add new Employee" />
+      <TextField layoutX="350.0" layoutY="156.0" />
    </children>
 </AnchorPane>
